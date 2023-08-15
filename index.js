@@ -8,51 +8,52 @@ long
 comment
 */
 
-var person ="Rahul"; // 5 ,true,
-person ="Hari"; // reassign
+// var person ="Rahul"; // 5 ,true,
+// person ="Hari"; // reassign
 
-const person1 ="Johny"; // fixed value
-let person2 = "Riya"; //changable value
-person2="siya"
+// const person1 ="Johny"; // fixed value
+// let person2 = "Riya"; //changable value
+// person2="siya"
 
-// Interactions
-alert("JS class is in session");
-person2 =prompt("What is your name ?");
-const isLegal= confirm("Are u 18 yesrs or above?");
-
-
-console.log({person,person1,person2,isLegal});
+// // Interactions
+// alert("JS class is in session");
+// person2 =prompt("What is your name ?");
+// const isLegal= confirm("Are u 18 yesrs or above?");
 
 
-// OPERATORS
+// console.log({person,person1,person2,isLegal});
+
+
+// // OPERATORS
  
 
-// interactions
+// // interactions
 
 
-//Statement
-if (a===0) {
-}  else if (a===1){   
-}  else if (a===2){
-}  else if (a===3)
+// //Statement
+// if (a===0) {
+// }  else if (a===1){   
+// }  else if (a===2){
+// }  else if (a===3){}
+// else{}
 
 //Ternory Operator
-if (a===0) {
-    console.log("its 0");
-}   else {
-    console.log("its not 0");
-}
+// if (a===0) {
+//     console.log("its 0");
+// }   else {
+//     console.log("its not 0");
+// }
 
-// Switch Case
+// // Switch Case
 
-switch (a===0){
-    case Value
-
-
+// switch (a===0){
+//     case Value
 
 
 
-}
+
+
+// }
 
 
 
@@ -75,3 +76,22 @@ switch (a===0){
 
 
 // Task 1
+const num = Number(prompt("Enter the number you want to print the day of:"));
+console.log({num});
+
+switch(num){
+    case 0: {
+        console.log("It's Sunday");
+        break;
+    }
+    case 1: {
+        console.log("It's Monday");
+        break;
+    }
+    case 2: {
+        console.log("It's Tuesday");
+        break;
+    }
+    default:
+        console.log("Number not found")
+}
