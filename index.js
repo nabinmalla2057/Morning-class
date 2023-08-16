@@ -94,8 +94,19 @@ comment
 //   i++;
 // }
 
-let i = 0;
-do {
-  console.log("The value of i is;", i);
-  i++;
-} while (i < 10);
+// let i = 0;
+// do {
+//   console.log("The value of i is;", i);
+//   i = i + 4;
+// } while (i < 16);
+
+// Function
+
+function sayHiToMe(name) {
+  //more logic
+  console.log("Hi" + name);
+  //more logic
+}
+
+sayHiToMe("Nabin");
+sayHiToMe("Malla");
