@@ -1,6 +1,5 @@
 //Comment synta
 
-
 /*
 multi line comment
 super 
@@ -20,19 +19,15 @@ comment
 // person2 =prompt("What is your name ?");
 // const isLegal= confirm("Are u 18 yesrs or above?");
 
-
 // console.log({person,person1,person2,isLegal});
 
-
 // // OPERATORS
- 
 
 // // interactions
 
-
 // //Statement
 // if (a===0) {
-// }  else if (a===1){   
+// }  else if (a===1){
 // }  else if (a===2){
 // }  else if (a===3){}
 // else{}
@@ -49,49 +44,58 @@ comment
 // switch (a===0){
 //     case Value
 
-
-
-
-
 // }
-
-
-
-
 
 //Task 1
 // prompt user to enter a number
-// check if the number is which day of the week 
+// check if the number is which day of the week
 // Example 0=> Sunday , 1=>Monday , 2=>Tuesday,....
-
-
 
 // Task 2
 // prompt user to enter a first number
-// prompt user to enter a second number 
+// prompt user to enter a second number
 // prompt user to enter a operator
 // using switch case
 // perform the operation and display the result
 
-
-
 // Task 1
-const num = Number(prompt("Enter the number you want to print the day of:"));
-console.log({num});
+// const num = Number(prompt("Enter the number you want to print the day of:"));
+// console.log({num});
 
-switch(num){
-    case 0: {
-        console.log("It's Sunday");
-        break;
-    }
-    case 1: {
-        console.log("It's Monday");
-        break;
-    }
-    case 2: {
-        console.log("It's Tuesday");
-        break;
-    }
-    default:
-        console.log("Number not found")
-}
+// switch(num){
+//     case 0: {
+//         console.log("It's Sunday");
+//         break;
+//     }
+//     case 1: {
+//         console.log("It's Monday");
+//         break;
+//     }
+//     case 2: {
+//         console.log("It's Tuesday");
+//         break;
+//     }
+//     default:
+//         console.log("Number not found")
+// }
+
+// Loops
+
+// for Loop
+//  let i;
+//  for( i =0; i<10; i++){
+//     console.log("The value of i is;", i)
+
+//  }
+
+// let i = 0;
+// while (i < 10) {
+//   console.log("The value of i is;", i);
+//   i++;
+// }
+
+let i = 0;
+do {
+  console.log("The value of i is;", i);
+  i++;
+} while (i < 10);
