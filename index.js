@@ -102,11 +102,27 @@ comment
 
 // Function
 
-function sayHiToMe(name) {
-  //more logic
-  console.log("Hi" + name);
-  //more logic
-}
+// function sayHiToMe(name) {
+//   //more logic
+//   console.log("Hi" + name);
+//   //more logic
+// }
 
-sayHiToMe("Nabin");
-sayHiToMe("Malla");
+// sayHiToMe("Nabin");
+// sayHiToMe("Malla");
+
+// Write a explict function that checks username and password in javascript.
+
+// function check (username , password){
+//   const validusername = "ram"
+//   const validpass="hari"
+//   return valid? true:false;
+
+// }
+
+if (username == "nabin" && password == "malla") return "acess granted";
+
+const username = prompt("username");
+const password = prompt("password");
+const result = login(username, password);
+console.log({ result });
