@@ -162,9 +162,27 @@
 //   console.log("hi");
 // }
 
-var hi = "";
-function sayHi() {}
-const hi = "";
-const sayHi = () => {
-  console.log("hi");
-};
+// var hi = "";
+// function sayHi() {}
+// const hi = "";
+// const sayHi = () => {
+//   console.log("hi");
+// };
+
+// Objects
+
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 50,
+//   eyeColor: "blue",
+// };
+// console.log(person.firstName + " " + person.lastName + "is" + person.age);
+
+// Array
+
+// const car = ["Saab","Volvo","BMW","Tesla"];
+// console.log(car.length);
+
+// car.push("tata","Nano");
+// console.log(car);
