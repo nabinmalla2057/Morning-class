@@ -186,3 +186,8 @@
 
 // car.push("tata","Nano");
 // console.log(car);
+
+//DESTRUCTURE
+
+const { b, ...others } = { a: 1, b: 2, c: 3 };
+console.log(others);
