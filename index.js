@@ -155,9 +155,9 @@
 // // const aage = person.getAge();
 // // console.log(aage);
 
-// //Hoisting
-// sayHi();
+// //******Hoisting
 
+// sayHi();
 // function sayHi() {
 //   console.log("hi");
 // }
@@ -169,7 +169,11 @@
 //   console.log("hi");
 // };
 
-// Objects
+// ******Objects
+
+// Node js inbuilt
+// custom node js module
+//open source module
 
 // const person = {
 //   firstName: "John",
@@ -179,7 +183,7 @@
 // };
 // console.log(person.firstName + " " + person.lastName + "is" + person.age);
 
-// Array
+// *****Array
 
 // const car = ["Saab","Volvo","BMW","Tesla"];
 // console.log(car.length);
@@ -187,7 +191,7 @@
 // car.push("tata","Nano");
 // console.log(car);
 
-//DESTRUCTURE
+//***DESTRUCTURE
 
-const { b, ...others } = { a: 1, b: 2, c: 3 };
-console.log(others);
+// const { b, ...others } = { a: 1, b: 2, c: 3 };
+// console.log(others);
